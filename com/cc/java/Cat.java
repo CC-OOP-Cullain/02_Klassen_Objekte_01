@@ -21,6 +21,8 @@ public class Cat {
         }
     }
 
+
+    
     public String getFurColor() {
         return furColor;
     }
@@ -29,6 +31,9 @@ public class Cat {
     public void setFurColor(String furColor) {
         this.furColor = furColor;
     }
+
+
+    // age ...
 
     public int getAge() {
         return age;
