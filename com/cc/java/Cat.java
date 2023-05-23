@@ -7,5 +7,18 @@ public class Cat {
     public int age;
 
 
+    public String tellYourName() {
+       return this.name;
+    }
+
+    public String tellYourFurColor() {
+        return this.furColor;
+    }
+
+    public int tellYourAge() {
+       return this.age; 
+    }
+
+
 
 }

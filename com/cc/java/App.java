@@ -16,9 +16,9 @@ public class App {
         cat1.age = 29;
 
         // Ausgabe über Methoden
-        output(cat1.name);
-        output(cat1.furColor);
-        output(Integer.toString(cat1.age));
+        output(cat1.tellYourName());
+        output(cat1.tellYourFurColor());
+        output(Integer.toString(cat1.tellYourAge()));
 
         // App.output("hi");
         output("-------------------");
